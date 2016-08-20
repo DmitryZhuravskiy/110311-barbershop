@@ -1,0 +1,40 @@
+﻿ <!DOCTYPE html>
+ <html lang="ru">
+   <head>
+     <meta charset="utf-8">
+     <title>HTML Academy: Барбершоп</title>
+   </head>
+   <body>
+    h1{
+    font-size: 30px;
+    line-height: 42px;
+    color: #000000;
+    font-family: RTSains NarrowBold;
+    font-weight: normal;
+    } 
+
+    legend, h2{
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    font-family: RTSains NarrowBold;
+    font-weight: normal;
+    } 
+
+    p{
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-family: RTSains NarrowBold;
+    font-weight: normal;
+    } 
+
+    .navigation-button{
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    font-family: RTSains NarrowBold;
+    font-weight: normal;
+    } 
+   </body>
+ </html>
