@@ -1,201 +1,137 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="container">
-        <nav class="main-navigation">
-          <div class="index-logo">
-            <a href="#"><img src="img/index-logo.png" width="114" height="24" alt="Barbershop"></a>
+ <!DOCTYPE html>
+ <html lang="ru">
+   <head>
+     <meta charset="utf-8">
+     <title>HTML Academy: Барбершоп</title>
+   </head>
+   <body>
+     <header class="main-header">
+       <div class="container">
+         <nav class="main-navigation">
+           <div class="index-logo">
+             <a href="#"><img src="img/index-logo.png" width="114" height="24" alt="Barbershop"></a>
+            </div>
+            <ul>
+              <li>
+                <a href="#">ИНФОРМАЦИЯ</a>
+              </li>
+              <li>
+                <a href="#">НОВОСТИ</a>
+              </li>
+              <li>
+                <a href="#">ПРАЙС-ЛИСТ</a>
+              </li>
+              <li>
+                <a href="#">МАГАЗИН</a>
+              </li>
+              <li>
+                <a href="#">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-block">
+            <img src="img/login.png" width="18" height="16">
+            <a class="login" href="#">ВХОД</a>
           </div>
+        </div>
+      </header>
+      <main class="container">
+        <section class="breadcrumbs">
+          <h1>
+            НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"
+          </h1>
+          <nav class="navigation">
+            <ul>
+              <li>
+                <a href="#">ГЛАВНАЯ</a>
+              </li>
+              <li>
+                <a href="#">МАГАЗИН</a>
+              </li>
+              <li>
+                <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+              </li>
+              <li>
+                <a href="#">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section class="photo">
+          <figure class="picture">
+            <img src="img/main-photo.jpg" width="486" height="524">
+            <img src="img/photo-behind.jpg" width="166" height="175">
+            <img src="img/photo-alone.jpg" width="166" height="175">
+            <img src="img/photo-under.jpg" width="166" height="175">
+          </figure>
+        </section>
+        <section class="available">
+          <p>ЕСТЬ В НАЛИЧИИ</p>
+        </section>
+        <section class="article-number">
+          <p>АРТИКУЛ: DEXTER-AE</p>
+        </section>
+        <section class="specification">
+          <p class="about-item">TRAVEL KIT - НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО<br>
+          ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО<br>
+          НУЖНО ДЛЯ БРИТЬ.Я И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ<br> 
+          ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ<br>
+          ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ<br> 
+          СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ</p>
+          <p class="price">2 900 РУБ.</p>
+          <a class="buy" href="#">Купить</a>
+        </section>
+        <section class="price">
+          <p">2 900 РУБ.</p>
+	</section>
+        <section class="buy">
+          <a href="#">Купить</a>
+        </section>
+        <section class="set">
+          <h2>
+            В НАБОР ВХОДЯТ:
+          </h2>
           <ul>
             <li>
-              <a class="navigation-button" href="#">ИНФОРМАЦИЯ</a>
+            СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)
             </li>
             <li>
-              <a class="navigation-button" href="#">НОВОСТИ</a>
+            УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)
             </li>
             <li>
-              <a class="navigation-button" href="#">ПРАЙС-ЛИСТ</a>
+            КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)
             </li>
             <li>
-              <a class="navigation-button" href="#">МАГАЗИН</a>
+            КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)
             </li>
             <li>
-              <a class="navigation-button" href="#">КОНТАКТЫ</a>
+            УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА
             </li>
           </ul>
-        </nav>
-        <div class="user-block">
-          <img src="img/login.png" width="18" height="16">
-          <a class="navigation-button login" href="#">ВХОД</a>
-        </div>
-      </div>
-    </header>
-    <main class="container">
-      <section class="breadcrumbs">
-        <h1>
-        СРЕДСТВА ДЛЯ УХОДА
-        </h1>
-          <ul class="breadcrumbs">
-            <li>
-              <a href="#">ГЛАВНАЯ</a>
-            </li>
-            <li>
-              <a href="#">МАГАЗИН</a>
-            </li>
-            <li>
-              <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
-            </li>
-          </ul>
-      </section>
-      <form action="https://barbershop.ru" method="get">
-        <fieldset class="producers">
-          <legend>
-          ПРОИЗВОДИТЕЛИ:
-          </legend>
-          <input type="checkbox" name="BAXTER OF CALIFORNIA" id="maker-1"checked>
-          <label for="maker-1">BAXTER OF CALIFORNIA</label>
-
-          <input type="checkbox" name="MR NATTY" id="maker-2">
-          <label for="maker-2">MR NATTY</label>
-
-          <input type="checkbox" name="SUAVECITO" id="maker-3" checked>
-          <label for="maker-3">SUAVECITO</label>
-
-          <input type="checkbox" name="MALIN-GOETZ" id="maker-4">
-          <label for="maker-4">MALIN-GOETZ</label>
-
-          <input type="checkbox" name="MURRAY'S" id="maker-5">
-          <label for="maker-5">MURRAY'S</label>
-
-          <input type="checkbox" name="AMERICAN CREW" id="maker-6" checked>
-          <label for="maker-6">AMERICAN CREW</label>
-        </fieldset>
-        <fieldset="item-groups">
-          <legend>
-          ГРУППЫ ТОВАРОВ:
-          </legend>
-            <label>      
-            <input type="radio" name="type-of-item" value="1">
-            БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
-            </label>
-
-            <label>                
-            <input type="radio" name="type-of-item" value="2" checked>
-            СРЕДСТВА ДЛЯ УХОДА            
-            </label>
-
-            <label>                
-            <input type="radio" name="type-of-item" value="3">
-            АКСЕССУАРЫ            
-            </label>
-        </fieldset>
-        <input class="btn show" type="submit" value="ПОКАЗАТЬ">
-      </form>
-
-      <article class="item">
-        <img src="img/BAXTER-for-travel.jpg" class="item-picture"width="220" height="165">
-        <h2 class="item-name">
-          <a><span>Набор для путешествий</span>
-          <span>"BAXTER OF CALIFORNIA"</span></a>
-        </h2>
-          <p ><span class="price">2 900 РУБ.</span>
-          <span><a href="#">КУПИТЬ</a></span></p>
-      </article>
-
-      <article class="item">
-        <img src="img/BAXTER-conditioner.jpg" class="item-picture"width="220" height="165">
-        <h2 class="item-name">
-          <a><span>Увлажняющий кондиционер</span>
-          <span>"BAXTER OF CALIFORNIA"</span></a>
-        </h2>
-          <p ><span class="price">750 РУБ.</span>
-          <span><a href="#">КУПИТЬ</a></span></p>
-      </article>
-
-      <article class="item">
-        <img src="img/SUAVECITO.jpg" class="item-picture"width="220" height="165">
-        <h2 class="item-name">
-          <a><span>Гель для волос</span>
-          <span>"SUAVECITO"</span></a>
-        </h2>
-          <p ><span class="price">290 РУБ.</span>
-          <span><a href="#">КУПИТЬ</a></span></p>
-      </article>
-
-      <article class="item">
-        <img src="img/AMERICAN-mud.jpg" class="item-picture"width="220" height="165">
-        <h2 class="item-name">
-          <a><span>Глина для укладки волос</span>
-          <span>"AMERICAN CREW"</span></a>
-        </h2>
-          <p ><span class="price">500 РУБ.</span>
-          <span><a href="#">КУПИТЬ</a></span></p>
-      </article>
-
-      <article class="item">
-        <img src="img/AMERICAN-gel.jpg" class="item-picture"width="220" height="165">
-        <h2 class="item-name">
-          <a><span>Гель для волос</span>
-          <span>"AMERICAN CREW"</span></a>
-        </h2>
-          <p ><span class="price">300 РУБ.</span>
-          <span><a href="#">КУПИТЬ</a></span></p>
-      </article>
-
-     <article class="item">
-        <img src="img/BAXTER-for-shave.jpg" class="item-picture"width="220" height="165">
-        <h2 class="item-name">
-          <a><span>Набор для бритья</span>
-          <span>"BAXTER OF CALIFORNIA"</span></a>
-        </h2>
-          <p ><span class="price">3 900 РУБ.</span>
-          <span><a href="#">КУПИТЬ</a></span></p>
-      </article>
-
-      <nav class="page-number">
-        <ul>
-          <li>
-            <a href="#">1</a>
-            </li>
-            <li>
-            <a href="#">2</a>
-            </li>
-            <li>
-            <a href="#">3</a>
-            </li>
-            <li>
-            <a href="#">4</a>
-            </li>
-          </ul>
-        </nav>
-    </main>
-    <footer class="main-footer">
-     <div class="container">
-       <section class="footer-contacts">
-         <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-         АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ.Б.КОНЮШЕННАЯ, Д.19/8<br>
-         <a href="#"><ins>КАК НАС НАЙТИ?</ins></a><br>
-         ТЕЛЕФОН:+7(495)666-02-66</p>    
-       </section>
-       <section class="footer-social">
-         <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
-         <a class="social-btn social-btn-vk" href="#">
-           <img src="img/vk.jpg" width="25" height="16"></a>
-         <a class="social-btn social-btn-fb" href="#">
-           <img src="img/fb.jpg" width="12" height="22"></a>
-         <a class="social-btn social-btn-inst" href="#">
-           <img src="img/inst.jpg" width="21" height="21"></a>
-       </section>
-       <section class="footer-copyright">
-         <p>РАЗРАБОТАНО:</p>
-         <a class="btn" href="https://htmlacademy.ru">HTMLACADEMY.RU</a>          
-       </section>
-     </div>
-    </footer>
-  </body>
-</html>
+        </section>
+      </main>
+      <footer class="main-footer">
+        <div class="container">
+          <section class="footer-contacts">
+            <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ.Б.КОНЮШЕННАЯ, Д.19/8<br>
+            <a href="#"><ins>КАК НАС НАЙТИ?</ins></a><br>
+            ТЕЛЕФОН:+7(495)666-02-66</p>     
+          </section>
+          <section class="footer-social">
+            <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
+            <a class="social-btn social-btn-vk" href="#">
+              <img src="img/vk.png" width="25" height="16"></a>
+            <a class="social-btn social-btn-fb" href="#">
+              <img src="img/fb.png" width="12" height="22"></a>
+            <a class="social-btn social-btn-inst" href="#">
+              <img src="img/inst.png" width="21" height="21"></a>
+         </section>
+         <section class="footer-copyright">
+           <p>РАЗРАБОТАНО:</p>
+           <a class="btn" href="https://htmlacademy.ru">HTMLACADEMY.RU</a>          
+         </section>
+       </div>
+     </footer>
+   </body>
+ </html>
